@@ -1,0 +1,174 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url("greenBackground.jpg"); */
+    /* background-color: #023021; */
+}
+
+#header {
+    background-color: #023021;
+    padding: 15px;
+    display: flex;
+    /* /* border-bottom-left-radius: 10px; */
+    /* border-top-right-radius: 10px;
+    border-top-left-radius: 10px; */
+}
+
+#WebsiteName {
+    font-size: 35px;
+    padding: 20px 0px 10px 20px;
+    color: white;
+}
+
+#navigator {
+    background-color: #ffffff;
+    /* Set the background color for the navigator */
+    padding: 5px;
+    padding-left: 50px;
+    display: flex;
+    /* Use flexbox */
+    align-items: center;
+    /* Vertically center items in the navigator */
+}
+
+#Recycle {
+    margin: 0;
+    margin-right: auto;
+    padding-right: 0px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+#contactInfo {
+    background-color: lightgreen;
+}
+
+#photo {
+    background-image: url("greenBackground.jpg");
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+h3 {
+    font-size: 50px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.buttonClick {
+    display: block;
+    width: 200px;
+    height: 60px;
+    background-color: darkgreen;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    font-size: 24px;
+    text-decoration: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.buttonClick2 {
+    display: block;
+    width: 200px;
+    height: 60px;
+    background-color: azure;
+    color: #177100;
+    text-align: center;
+    line-height: 60px;
+    font-size: 24px;
+    text-decoration: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#button-container {
+    display: flex;
+}
+
+.paraBio {
+    color: azure;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.paraHeadBio {
+    color: azure;
+    font-size: 60px;
+}
+
+#whiteDiv {
+    display: flex;
+    padding-left: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 15px;
+}
+
+#h3tag {
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+#greenDiv {
+    padding: 50px;
+    display: flex;
+    background-color: #6bb401;
+}
+
+#greenDiv1 {
+    display: block;
+    width: 500px;
+    background-color: azure;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+embed {
+    border-radius: 25px;
+}
+
+#background-comapany {
+    /* background-image: url("background-comanpy.jpg"); */
+    color: azure;
+    background-color: #1a7e00;
+}
+
+#footer {
+    display: flex;
+    background-color: #023021;
+    font-size: 12px;
+    color: azure;
+}
+
+#footer-head{
+    padding-top: 15px;
+    text-align: center;
+    background-color: #023021;
+    color: azure;
+}
+.footer-div{
+    padding: 30px;
+    width: 100%;
+}
+
+#last-footer {
+    display: flex;
+    background-color: #9f9f9d;
+}
+
+.child-footer{
+    width: 100%;
+    padding: 10px 50px 10px 50px;
+}
