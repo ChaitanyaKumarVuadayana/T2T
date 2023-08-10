@@ -172,3 +172,33 @@ embed {
     width: 100%;
     padding: 10px 50px 10px 50px;
 }
+
+
+/* Send-request-page */
+#photo-send-request {
+    display: flex;
+    background-image: url("greenBackground.jpg");
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+#request-form {
+    text-align: center;
+    padding: 10px;
+    /* background-color: greenyellow; */
+    background-color: hsla(74, 75%, 63%, 0.4); /* Black color with 50% transparency */
+    border-radius: 15px; 
+    margin: 20px ;
+    color: azure;
+}
+
+#photo-send-request h3 {
+    /* Set opacity to 1 for the h3 element to make it fully opaque */
+    padding: 5px;
+    color: azure;
+}
+
