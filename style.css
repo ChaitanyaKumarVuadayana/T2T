@@ -184,6 +184,7 @@ embed {
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
+    margin-bottom: 1%;
 }
 
 #request-form {
@@ -202,3 +203,22 @@ embed {
     color: azure;
 }
 
+#content-company {
+    display: flex;
+}
+#content-company div {
+    margin: 1%;
+    padding: 2%;
+    border-radius: 25px;
+    color: azure;
+    background-color: #177100;
+    width: 33%;
+}
+
+#content-service {
+    margin: 1%;
+    padding: 2%;
+    border-radius: 25px;
+    color: azure;
+    background-color: #49a401;
+}
