@@ -222,3 +222,7 @@ embed {
     color: azure;
     background-color: #49a401;
 }
+
+.slideshow-container img {
+    border-radius: 35px;
+}
