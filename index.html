@@ -35,8 +35,10 @@
         </a>
     </div>
 
-    <div id="photo">
-        <p class="paraBio">A ENVIRONMENTAL FRIENDLY COMPANY</p>
+    
+    <div id="photo" style="display: flex;">
+        <div>
+            <p class="paraBio">A ENVIRONMENTAL FRIENDLY COMPANY</p>
         <h3 class="paraHeadBio">From waste to<br>wonder, we craft<br>a greener future!</h3>
         <p class="paraBio" style="margin-bottom: 15px;">Join us in our mission to create a sustainable and<br>eco-friendly future, one step at a
             time.</p>
@@ -46,9 +48,56 @@
             <a href="Send-Request.html" class="buttonClick">Send Request</a>
             <a href="company.html" class="buttonClick2">More About Us</a>
         </div>
+        </div>
+        
+        <!-- added -->
+        <div class="slideshow-container" style="margin-left: 15%; padding-top: 2%;">
+
+            <div class="mySlides fade">
+              <img src="https://media.gettyimages.com/id/1352094772/photo/workers-sorting-recyclable-materials-on-conveyor-belt.jpg?s=612x612&w=0&k=20&c=L-j_dUhA_6cXO0GQViYSDTURSTDNO8V9b23VM_8mX88=" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="https://media.gettyimages.com/id/1302364064/photo/water-purification-plant.jpg?s=612x612&w=0&k=20&c=Liq_vvqRn5LIoRT1zZ89Nr78YVwFRM2jzM4EAQcAj10=" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="https://media.gettyimages.com/id/1058797718/photo/recycle-for-a-better-tomorrow.jpg?s=612x612&w=0&k=20&c=3ZKqbec0Qhe8uPwqq-oA4ortWuKmVWR7RfR7M_2ozBg=" style="width:100%">
+            </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+            
+            <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
+            
     </div>
-
-
+    
     <h3 id="h3tag">From Waste to Wonder: Crafting a SustainableFuture through Innovative Recycling</h3>
     <div id="whiteDiv">
 
